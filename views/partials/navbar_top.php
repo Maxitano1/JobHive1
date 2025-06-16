@@ -2,8 +2,8 @@
 <nav class="d-flex justify-content-between align-items-center px-4 py-2 bg-light border-bottom">
   <!-- Bên trái: Logo và Trang chủ -->
   <div>
-    <a href="index.php" class="fw-bold text-dark text-decoration-none fs-4">JobHive</a>
-    <a href="?page=home" class="ms-3">Trang chủ</a>
+    <a href="index.php" class="fw-bold fst-italic text-dark text-decoration-none fs-4 ms-5">JobHive</a>
+    <!-- <a href="?page=home" class="ms-3 text-decoration-none">Trang chủ</a> -->
 
     <!-- chỉ company -->
     <?php if (isset($_SESSION['user']) && $_SESSION['user']['role'] === 'company'): ?>
