@@ -1,5 +1,6 @@
+
 <!-- file này gọn, dễ chỉnh sửa -->
-<nav class="d-flex justify-content-between align-items-center px-4 py-2 bg-light border-bottom">
+<nav class=" d-flex justify-content-between align-items-center px-4 py-2 bg-light border-bottom">
   <!-- Bên trái: Logo và Trang chủ -->
   <div>
     <a href="index.php" class="fw-bold fst-italic text-dark text-decoration-none fs-4 ms-5">JobHive</a>

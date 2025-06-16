@@ -23,7 +23,7 @@ $totalPages = ceil($total / $limit);
   <?php else: ?>
     <?php foreach ($jobs as $job): ?>
       <div class="border p-3 rounded mb-3">
-        <a href="?page=job_detail&id=<?= $job['id'] ?>">
+        <a href="?page=job_detail&id=<?= $job['id'] ?>" class="text-decoration-none">
           <h5><?= htmlspecialchars($job['title']) ?></h5>
         </a>
         <p><strong><?= htmlspecialchars($job['company']) ?></strong> - <?= htmlspecialchars($job['location']) ?></p>
